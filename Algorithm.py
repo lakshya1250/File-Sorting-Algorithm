@@ -205,13 +205,13 @@ root.configure(bg="#cc99ff")
 root.attributes("-fullscreen", True)
 
 # Initializing The Images
-picture1 = tk.PhotoImage(file="Audio.png")
-picture2 = tk.PhotoImage(file="Compressed.png")
-picture3 = tk.PhotoImage(file="Document.png")
-picture4 = tk.PhotoImage(file="Executable.png")
-picture5 = tk.PhotoImage(file="Image.png")
-picture6 = tk.PhotoImage(file="Video.png")
-picture7 = tk.PhotoImage(file="Other.png")
+picture1 = tk.PhotoImage(file="Files/Images/Audio.png")
+picture2 = tk.PhotoImage(file="Files/Images/Compressed.png")
+picture3 = tk.PhotoImage(file="Files/Images/Document.png")
+picture4 = tk.PhotoImage(file="Files/Images/Executable.png")
+picture5 = tk.PhotoImage(file="Files/Images/Image.png")
+picture6 = tk.PhotoImage(file="Files/Images/Video.png")
+picture7 = tk.PhotoImage(file="Files/Images/Other.png")
 
 # Creating The Main Window
 frame1 = tk.Frame(root, bg="#cc99ff", relief=RIDGE, bd=10)
